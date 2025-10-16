@@ -114,6 +114,8 @@ for card in cards:
 json_output = json.dumps(profiles, indent=4)
 
 file_name = input("Enter the filename to save the profiles (e.g., profiles.json): ")
+if ".json" not in file_name:
+    file_name += ".json"
 with open(file_name, "w") as f:
     f.write(json_output)
 print(f"Profiles saved to {file_name}")

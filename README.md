@@ -23,5 +23,10 @@ example run
 ```bash
 python direct.py
 <!urlinkedinemail> <!password>
-Press Enter after you've completed any 2FA if prompted...
+Press Enter after you've completed any 2FA if prompted... <enter key>
+Driver session is still active. You can continue coding and interacting with the browser.
+enter the keyword for the people you want to search for : <stuff u wann search>
+Enter the filename to save the profiles (e.g., profiles.json): <filename>
+Profiles saved to <filename>.json
 ```
+The script will prompt you to enter a search keyword and a filename to save the scraped profiles in JSON format.
